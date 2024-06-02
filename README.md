@@ -6,3 +6,5 @@
 <a href="https://asciinema.org/a/ZaY8Xy8wM2FhFFQJugB3S2tZB">Проверка на чётность</a>
 
 <a href="https://asciinema.org/a/zzP6uUwrxG6UmCLPB3loG20vb">Калькулятор</a>
+
+<a href="https://asciinema.org/a/ycza3L0PpBl7nc4sF6u7VTzBN">НОД</a>
