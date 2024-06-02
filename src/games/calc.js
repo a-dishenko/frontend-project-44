@@ -1,9 +1,9 @@
-import { doAsking } from './index.js';
+import { doAsking, greeting } from '../index.js';
 
-const calcGame = (name = 'Anon') => {
+const calcGame = () => {
   const props = {
     startQuestion: 'What is the result of the expression?',
-    name,
+    name: greeting(),
   };
 
   const getQuestion = () => {

@@ -1,9 +1,9 @@
-import { doAsking } from './index.js';
+import { doAsking, greeting } from '../index.js';
 
-const evenGame = (name = 'Anon') => {
+const evenGame = () => {
   const props = {
     startQuestion: 'Answer "yes" if the number is even, otherwise answer "no".',
-    name,
+    name: greeting(),
   };
 
   const getQuestion = () => {

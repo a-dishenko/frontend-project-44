@@ -22,7 +22,8 @@ const doAsking = (isCorrect, getQuestion, params) => {
     }
   }
   if (mistakeFlag) {
-    console.log(`Let's try again, ${params.name}!`);
+    const errorMessage = params.errorMessage || `Let's try again, ${params.name}!`;
+    console.log(errorMessage);
   } else {
     console.log(`Congratulations, ${params.name}!`);
   }
