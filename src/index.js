@@ -16,7 +16,9 @@ const doAsking = (isCorrect, getQuestion, params) => {
     const question = getQuestion();
     console.log(question.text);
     const answer = readlineSync.question('Your answer: ');
-    if (!isCorrect(question, answer)) {
+    if (isCorrect(question, answer)) {
+      console.log('Correct!');
+    } else {
       mistakeFlag = true;
       break;
     }
