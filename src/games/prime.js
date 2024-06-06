@@ -31,7 +31,6 @@ const primeGame = () => {
     name: greeting(),
   };
 
-  
   doAsking(isCorrect, getQuestion, props);
 };
 

@@ -26,7 +26,7 @@ const getQuestion = () => {
   const hiddenIndex = Math.floor(Math.random() * progLength);
 
   const num2guess = progression[hiddenIndex];
-  progression[hiddenIndex] = '...';
+  progression[hiddenIndex] = '..';
 
   const question = `Question: ${progression.join(' ')}`;
   return { text: question, value: num2guess };
